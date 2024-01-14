@@ -1,0 +1,33 @@
+Task Instructions
+Refer to the following guide for preparing the Python script and report:
+1.	You decide to look for an external data source and you realise that Wikipedia maintains the details you are looking for on their website. However, this data is not easily available. Thus, you decide to use web scraping to extract these data from the website.  
+2.	You need to extract data for two seasons:
+1.	2023 home-and-away season games and their details from the following URL: https://en.wikipedia.org/wiki/2023_AFL_season
+2.	Women’s season 8 games and their details (September-December 2023) from the following URL: https://en.wikipedia.org/wiki/2023_AFL_Women%27s_season
+3.	You need to use only the following libraries for web scraping:
+1.	BeautifulSoup (from bs4)
+2.	requests
+3.	re
+Note: No other libraries are to be used. Please don’t use Pandas for this Task.
+4.	The main steps include:
+5.	Create a project structure. Your structure should follow the following structure:
+1.	Project
+o	input
+o	Your input files (for example, you may have a file containing the URL(s) to scrape)
+o	output
+o	Your output files (for example, any output data files)
+o	src
+o	All source files (*.ipynb)
+6.	Extract the following columns from the tables:
+1.	Round Number (example: "1")
+2.	Day of the game (example: "Friday")
+3.	Date of the game (example: "19-Sep")
+4.	Time of the game (example: "7:50 pm")
+5.	First team name (example: "Brisbane Lions")
+6.	First team score in points only (example: "57")
+7.	First team win status (either "def. by" or "def.")
+8.	Second team name (example: "Melbourne")
+9.	Second team score in points only (example: "115")
+10.	Game location (example: "The Gabba")
+11.	Stadium Attendees (example: "32172")
+7.	Save the data into a CSV file
